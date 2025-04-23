@@ -12,6 +12,6 @@ python manage.py collectstatic --no-input
 python manage.py migrate
 
 # Import init custom data
-python manage.py loaddata database.json
+#python manage.py loaddata database.json
 
 # python -m gunicorn myproject.asgi:application -k uvicorn.workers.UvicornWorker
